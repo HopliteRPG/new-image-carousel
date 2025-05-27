@@ -1,3 +1,3 @@
-import { photosForCarousel } from "./imagecode-folder/imagecode";
+import { photosForCarousel } from "./imageCode-folder/imageCode";
 import "./styles.css";
 photosForCarousel();
