@@ -1,3 +1,8 @@
+import {
+  lowerCounter,
+  raiseCounter,
+} from "../leftAndRightButton-folder/leftAndRightButton";
+
 export { displayImage };
 function displayImage(startingPoint, array) {
   let displayImageCounter = startingPoint;
@@ -11,4 +16,7 @@ function displayImage(startingPoint, array) {
   } else {
     console.log(array[displayImageCounter]);
   }
+
+  lowerCounter(displayImageCounter, array);
+  raiseCounter(displayImageCounter, array);
 }

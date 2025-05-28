@@ -1,17 +1,21 @@
-let leftButton = document.querySelector(".left-btn");
-let rightButton = document.querySelector(".right-btn");
+export { lowerCounter, raiseCounter };
+import { createCaroBaseHtml } from "../carouselBaseHtml-folder/carouselBaseHtml";
+import { displayImage } from "../carouselDisplay-folder/carouselDisplay";
 
 function lowerCounter(displayImageCounter, array) {
+  let leftButton = document.querySelector(".left-btn");
   leftButton.addEventListener("click", () => {
+    createCaroBaseHtml();
     displayImageCounter--;
-    dispayImages(array);
+    displayImage(displayImageCounter, array);
   });
 }
 
 function raiseCounter(displayImageCounter, array) {
+  let rightButton = document.querySelector(".right-btn");
   rightButton.addEventListener("click", () => {
-    console.log(displayImageCounter);
+    createCaroBaseHtml();
     displayImageCounter++;
-    dispayImages(array);
+    displayImage(displayImageCounter, array);
   });
 }
