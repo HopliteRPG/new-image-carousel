@@ -1,28 +1,14 @@
-const divCreate = document.createElement("div");
-const buttonCreate = document.createElement("button");
+let leftButton = document.querySelector(".left-btn");
+let rightButton = document.querySelector(".right-btn");
 
-function createDivSection(parentDiv, div, className) {
-  let cloneDivCreate = div.cloneNode(true);
-  cloneDivCreate.classList.add(className);
-  parentDiv.appendChild(cloneDivCreate);
-  return { cloneDivCreate };
-}
-
-function createButton(div, button, buttonClass) {
-  let cloneButtonCreate = button.cloneNode(true);
-  cloneButtonCreate.classList.add(buttonClass);
-  div.appendChild(cloneButtonCreate);
-  return { cloneButtonCreate };
-}
-
-function lowerCounter(array) {
+function lowerCounter(displayImageCounter, array) {
   leftButton.addEventListener("click", () => {
     displayImageCounter--;
     dispayImages(array);
   });
 }
 
-function raiseCounter(array) {
+function raiseCounter(displayImageCounter, array) {
   rightButton.addEventListener("click", () => {
     console.log(displayImageCounter);
     displayImageCounter++;
