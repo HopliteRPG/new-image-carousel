@@ -2,6 +2,7 @@ import {
   lowerCounter,
   raiseCounter,
 } from "../leftAndRightButton-folder/leftAndRightButton";
+import { bottomCarouselButtonCreator } from "../selectionButton-folder/selectionButton";
 
 export { displayImage };
 function displayImage(startingPoint, array) {
@@ -17,6 +18,7 @@ function displayImage(startingPoint, array) {
     console.log(array[displayImageCounter]);
   }
 
+  bottomCarouselButtonCreator(array);
   lowerCounter(displayImageCounter, array);
   raiseCounter(displayImageCounter, array);
 }
