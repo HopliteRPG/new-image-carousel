@@ -1,5 +1,5 @@
 import { createCaroBaseHtml } from "../carouselBaseHtml-folder/carouselBaseHtml";
-import { displayImage } from "../carouseldisplay-folder/carouseldisplay";
+import { displayImage } from "../carouselDisplay-folder/carouselDisplay";
 
 export { bottomCarouselButtonCreator };
 
