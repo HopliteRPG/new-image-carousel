@@ -1,4 +1,8 @@
 import {
+  createImageHtml,
+  removeImageHtml,
+} from "../../imageCode-folder/imageCodeHtml";
+import {
   lowerCounter,
   raiseCounter,
 } from "../leftAndRightButton-folder/leftAndRightButton";
@@ -11,11 +15,26 @@ function displayImage(startingPoint, array) {
   if (displayImageCounter == array.length) {
     displayImageCounter = 0;
     console.log(array[displayImageCounter]);
+    removeImageHtml();
+    createImageHtml(
+      array[displayImageCounter].photoHTML,
+      array[displayImageCounter].photoClassName,
+    );
   } else if (displayImageCounter == -1) {
     displayImageCounter = array.length - 1;
     console.log(array[displayImageCounter]);
+    removeImageHtml();
+    createImageHtml(
+      array[displayImageCounter].photoHTML,
+      array[displayImageCounter].photoClassName,
+    );
   } else {
     console.log(array[displayImageCounter]);
+    removeImageHtml();
+    createImageHtml(
+      array[displayImageCounter].photoHTML,
+      array[displayImageCounter].photoClassName,
+    );
   }
 
   bottomCarouselButtonCreator(array);
