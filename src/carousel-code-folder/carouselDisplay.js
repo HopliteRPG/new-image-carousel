@@ -1,7 +1,7 @@
 import {
   createImageHtml,
   removeImageHtml,
-} from "../imageCode-folder/imageCodeHtml";
+} from "../image-code-folder/imageCodeHtml";
 import {
   lowerCounter,
   raiseCounter,
