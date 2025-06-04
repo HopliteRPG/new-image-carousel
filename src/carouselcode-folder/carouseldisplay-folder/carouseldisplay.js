@@ -5,8 +5,8 @@ import {
 import {
   lowerCounter,
   raiseCounter,
-} from "../leftAndRightButton-folder/leftAndRightButton";
-import { bottomCarouselButtonCreator } from "../selectionButton-folder/selectionButton";
+} from "../../button-code-folder/leftAndRightButton";
+import { bottomCarouselButtonCreator } from "../../button-code-folder/selectionButton";
 
 export { displayImage };
 function displayImage(startingPoint, array) {
