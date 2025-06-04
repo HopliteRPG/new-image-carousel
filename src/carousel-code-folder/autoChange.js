@@ -1,5 +1,5 @@
 import { createCaroBaseHtml } from "../carouselBaseHtml-folder/carouselBaseHtml";
-import { displayImage } from "../carouselDisplay-folder/carouselDisplay";
+import { displayImage } from "./carouselDisplay";
 export { timeoutFunc };
 
 function timeoutFunc(displayImageCounter, array) {

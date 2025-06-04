@@ -1,12 +1,12 @@
 import {
   createImageHtml,
   removeImageHtml,
-} from "../../imageCode-folder/imageCodeHtml";
+} from "../imageCode-folder/imageCodeHtml";
 import {
   lowerCounter,
   raiseCounter,
-} from "../../button-code-folder/leftAndRightButton";
-import { bottomCarouselButtonCreator } from "../../button-code-folder/selectionButton";
+} from "../button-code-folder/leftAndRightButton";
+import { bottomCarouselButtonCreator } from "../button-code-folder/selectionButton";
 
 export { displayImage };
 function displayImage(startingPoint, array) {
