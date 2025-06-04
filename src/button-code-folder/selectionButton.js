@@ -23,7 +23,7 @@ function createButton(div, button, buttonClass) {
 
 function bottomCarouselButtonCreator(array) {
   bottomCaroContainer.innerText = "";
-  alert("ran");
+  console.log("ran");
 
   array.forEach((image) => {
     let bottomButtonDiv = createDivSection(
