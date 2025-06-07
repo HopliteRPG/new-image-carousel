@@ -37,7 +37,7 @@ function displayImage(startingPoint, array) {
     );
   }
 
-  bottomCarouselButtonCreator(array);
-  lowerCounter(displayImageCounter, array);
-  raiseCounter(displayImageCounter, array);
+  // bottomCarouselButtonCreator(array);
+  // lowerCounter(displayImageCounter, array);
+  // raiseCounter(displayImageCounter, array);
 }

@@ -6,4 +6,3 @@ import "./styles.css";
 photosForCarousel();
 createCaroBaseHtml();
 displayImage(0, carArr);
-bottomCarouselButtonCreator(carArr);
